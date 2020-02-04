@@ -1,0 +1,39 @@
+table {
+    font-family: Georgia, serif;
+    border: 6px solid #24943A;
+    background-color: #D4EED1;
+    width: 100%;
+    text-align: left;
+  }
+  table td, table th {
+    border: 1px solid #24943A;
+    padding: 3px 2px;
+  }
+  table thead {
+    background: rgb(133, 167, 154);
+    font-weight: bolder;
+  }
+  table tr:nth-child(even) {
+    background: #24946A 
+  }
+  table tfoot {
+    background: rgb(133, 167, 154);
+    font-weight: bolder;
+    text-align: center;
+  }
+  h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #27FF4F;
+    font-weight: bolder;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: Center;
+  }
+  h2{
+      
+  }
