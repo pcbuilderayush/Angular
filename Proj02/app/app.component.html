@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+ <h2>First No: </h2> <input type="number" placeholder="Enter First Number" [(ngModel)]="Number1"> 
+ <h2>Second No:</h2> <input type="number" placeholder="Enter Second Number" [(ngModel)]="Number2">
+ 
+
+    <br>
+    <button (click)="sum()"> Sum </button>
+    <button (click)="diff()"> difference </button>
+    <button (click)="mul()"> Multiply </button>
+    <button (click)="div()"> Divide </button>
+    <br>
+    <h2>Result is: </h2>
+    <input type="number" [(ngModel)]="result">
+  </body>
+</html>
+
